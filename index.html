@@ -1,45 +1,48 @@
 <html>
-    <head>
-        <title>Drumkit and Shit</title>
-        <link rel="stylesheet" href="animate.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="content">
-            <div id="heading" >Press the mentioned keys to play sounds</div>
-            <div id="wrap" class="animated fadeInDown">
-                <div id="key65" class="box">A</div>
-                <div id="key83" class="box">S</div>
-                <div id="key68" class="box">D</div>
-                <div id="key32" class="box">Space</div>
-                <div id="key74" class="box">J</div>
-                <div id="key75" class="box">K</div>
-                <div id="key76" class="box">L</div>
-            </div>
-            <audio id="audio65">
-                <source src="hihat.wav" type="audio/wav">
-            </audio>
-            <audio id="audio83">
-                <source src="openhat.wav" type="audio/wav">
-            </audio>
-            <audio id="audio68">
-                <source src="clap.wav" type="audio/wav">
-            </audio>
-            <audio id="audio32">
-                <source src="kick.wav" type="audio/wav">
-            </audio>
-            <audio id="audio74">
-                <source src="tom.wav" type="audio/wav">
-            </audio>
-            <audio id="audio75">
-                <source src="ride.wav" type="audio/wav">
-            </audio>
-            <audio id="audio76">
-                <source src="snare.wav" type="audio/wav">
-            </audio>
+
+<head>
+    <title>Drumkit and Shit</title>
+    <link rel="stylesheet" href="css/.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="heading">Press the mentioned keys to play sounds</div>
+        <div id="wrap" class="animated fadeInDown">
+            <div id="key65" class="box">A</div>
+            <div id="key83" class="box">S</div>
+            <div id="key68" class="box">D</div>
+            <div id="key32" class="box">Space</div>
+            <div id="key74" class="box">J</div>
+            <div id="key75" class="box">K</div>
+            <div id="key76" class="box">L</div>
         </div>
-    </body>
-    <script src="script.js"></script>
+        <audio id="audio65">
+                <source src="sounds/hihat.wav" type="audio/wav">
+            </audio>
+        <audio id="audio83">
+                <source src="sounds/openhat.wav" type="audio/wav">
+            </audio>
+        <audio id="audio68">
+                <source src="sounds/clap.wav" type="audio/wav">
+            </audio>
+        <audio id="audio32">
+                <source src="sounds/kick.wav" type="audio/wav">
+            </audio>
+        <audio id="audio74">
+                <source src="sounds/tom.wav" type="audio/wav">
+            </audio>
+        <audio id="audio75">
+                <source src="sounds/ride.wav" type="audio/wav">
+            </audio>
+        <audio id="audio76">
+                <source src="sounds/snare.wav" type="audio/wav">
+            </audio>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
 </html>
